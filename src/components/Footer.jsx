@@ -1,9 +1,9 @@
 import "../styles/Footer.css";
 function Footer() {
-  const year = currentTime.getFullYear();
+  const currentYear = new Date().getFullYear();
   return (
     <div className="footer">
-      <p>&copy; {year} Oussama Bensaid</p>
+      <p>&copy; {currentYear} Oussama Bensaid</p>
     </div>
   );
 }
